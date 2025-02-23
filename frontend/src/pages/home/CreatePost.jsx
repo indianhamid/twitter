@@ -22,13 +22,13 @@ const CreatePost = () => {
   };
 
   const handleImgChange = (e) => {
-    const file = e.target.files[0];
+    const file = e.target.files[0]; // دریافت فایل انتخاب‌شده
     if (file) {
-      const reader = new FileReader();
+      const reader = new FileReader(); // ایجاد یک شیء FileReader
       reader.onload = () => {
-        setImg(reader.result);
+        setImg(reader.result); // مقدار خوانده‌شده را در استیت ذخیره می‌کند
       };
-      reader.readAsDataURL(file);
+      reader.readAsDataURL(file); // تبدیل فایل به یک URL در قالب Base64
     }
   };
 
