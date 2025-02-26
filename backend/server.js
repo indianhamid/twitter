@@ -21,7 +21,7 @@ cloudinary.config({
 
 const PORT = process.env.PORT || 5000;
 
-app.use(express.json()); // to parse req.body for signup & ...
+app.use(express.json({limit:'5000kb'})); // to parse req.body for signup & ...
 // limit shouldn't be too big to prevent DOS
 app.use(express.urlencoded({ extended: true })); // to parse form data
 
