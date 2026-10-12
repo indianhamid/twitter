@@ -13,12 +13,11 @@ Note: Render free tier may sleep — first load can take a few seconds.
 <img src="./screenshots/twitter-cover.png" width="100%" />
 
 <p>
-  <img src="./screenshots/twitter-2.png" width="49%" />
-  <img src="./screenshots/twitter-3.png" width="49%" />
+  <img src="./screenshots/twitter-2.png" width="33%" />
+  <img src="./screenshots/twitter-3.png" width="33%" />
+  <img src="./screenshots/twitter-mobile.png" width="33%" />
 </p>
-<p>
-  <img src="./screenshots/twitter-mobile.png" width="49%" />
-</p>
+
 
 ---
 
