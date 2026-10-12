@@ -7,6 +7,19 @@ Uses **MongoDB (Mongoose)**, **JWT auth (cookies)**, and **Cloudinary** for imag
 https://twitter-x-rxpp.onrender.com/signup  
 Note: Render free tier may sleep — first load can take a few seconds.
 
+
+## Screenshots
+
+<img src="./screenshots/twitter-cover.png" width="100%" />
+
+<p>
+  <img src="./screenshots/twitter-2.png" width="49%" />
+  <img src="./screenshots/twitter-3.png" width="49%" />
+</p>
+<p>
+  <img src="./screenshots/twitter-mobile.png" width="49%" />
+</p>
+
 ---
 
 ## Tech Stack
